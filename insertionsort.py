@@ -1,3 +1,5 @@
+# pip install matplotlib
+
 import time
 import matplotlib.pyplot as plt
 
@@ -35,4 +37,5 @@ def insertion_sort(arr):
 
 arr = list(map(int, input("Enter the elements: ").split()))
 insertion_sort(arr)
+
 
